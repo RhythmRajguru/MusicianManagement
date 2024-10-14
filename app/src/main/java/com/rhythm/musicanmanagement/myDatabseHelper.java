@@ -2,6 +2,7 @@ package com.rhythm.musicanmanagement;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.widget.Toast;
@@ -21,7 +22,7 @@ public class myDatabseHelper extends SQLiteOpenHelper {
     private static final String EVENT_LOCATION="event_location";
     private static final String EVENT_DESCRIPTION="event_description";
 
-    public myDatabseHelper(@Nullable Context context) {
+    myDatabseHelper(@Nullable Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
         this.context=context;
     }
@@ -66,5 +67,31 @@ public class myDatabseHelper extends SQLiteOpenHelper {
        else {
            Toast.makeText(context, "Added Successfully!", Toast.LENGTH_SHORT).show();
        }
+    }
+    Cursor readallData(){
+        String query="SELECT * FROM "+ TABLE_NAME;
+        SQLiteDatabase db=this.getReadableDatabase();
+
+        Cursor cursor=null;
+        if (db!=null){
+            cursor=db.rawQuery(query,null);
+        }
+        return cursor;
+    }
+    void updateData(String row_id, String title, String people, String date, String time, String location, String description){
+        SQLiteDatabase db=this.getWritableDatabase();
+        ContentValues cv=new ContentValues();
+        cv.put(EVENT_TITLE,title);
+        cv.put(EVENT_PEOPLE,people);
+        cv.put(EVENT_DATE,date);
+        cv.put(EVENT_TIME,time);
+        cv.put(EVENT_LOCATION,location);
+        cv.put(EVENT_DESCRIPTION,description);
+        long result=db.update(TABLE_NAME,cv,"id=?", new String[]{row_id});
+        if(result==-1){
+            Toast.makeText(context, "Failed to Update..", Toast.LENGTH_SHORT).show();
+        }else{
+            Toast.makeText(context, "Successfully Updated!", Toast.LENGTH_SHORT).show();
+        }
     }
 }

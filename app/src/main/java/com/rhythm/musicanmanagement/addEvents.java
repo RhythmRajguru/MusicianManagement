@@ -1,6 +1,8 @@
 package com.rhythm.musicanmanagement;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -27,28 +29,28 @@ public class addEvents extends AppCompatActivity {
         etDescription=findViewById(R.id.etDescription);
 
         add_databtn=findViewById(R.id.add_databtn);
-
         add_databtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 myDatabseHelper myDB=new myDatabseHelper(addEvents.this);
-                try {
-                    myDB.addEvent(etTitleName.getText().toString().trim(),Integer.valueOf(etPeopleCount.getText().toString().trim()),
-                            etDate.getText().toString().trim(),etTime.getText().toString().trim(),
-                            etLocation.getText().toString().trim(),etDescription.getText().toString().trim());
-                    etTitleName.setText("");
-                    etPeopleCount.setText("");
-                    etDate.setText("");
-                    etTime.setText("");
-                    etLocation.setText("");
-                    etDescription.setText("");
-                }
-                catch (Exception e){
-                    e.getMessage();
-                }
+
+                myDB.addEvent(etTitleName.getText().toString().trim(),Integer.valueOf(etPeopleCount.getText().toString().trim()),
+                        etDate.getText().toString().trim(),etTime.getText().toString().trim(),
+                        etLocation.getText().toString().trim(),etDescription.getText().toString().trim());
+                etTitleName.setText("");
+                etPeopleCount.setText("");
+                etDate.setText("");
+                etTime.setText("");
+                etLocation.setText("");
+                etDescription.setText("");
+
+                Intent i=new Intent(getApplicationContext(),home.class);
+                startActivity(i);
+
 
             }
-        });
+        });}
+
+
 
     }
-}
