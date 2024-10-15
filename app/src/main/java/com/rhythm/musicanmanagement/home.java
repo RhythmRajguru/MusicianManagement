@@ -9,6 +9,8 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -29,12 +31,16 @@ public class home extends AppCompatActivity {
     ArrayList<String> event_id,event_title,event_people,event_date,event_time,event_location,event_description;
     CustomAdapter customAdapter;
     Toolbar toolbar;
+    ImageView empty_imgView;
+    TextView empty_textView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         recyclerView=findViewById(R.id.recyclerView);
         add_button=findViewById(R.id.add_button);
+        empty_imgView=findViewById(R.id.empty_imgView);
+        empty_textView=findViewById(R.id.empty_textView);
         //toolbar added
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -90,7 +96,8 @@ public class home extends AppCompatActivity {
 
         Cursor cursor= myDB.readallData();
         if(cursor.getCount()==0){
-            Toast.makeText(this, "There is no data..", Toast.LENGTH_SHORT).show();
+           empty_imgView.setVisibility(View.VISIBLE);
+           empty_textView.setVisibility(View.VISIBLE);
         }else {
             while (cursor.moveToNext()){
                 event_id.add(cursor.getString(0));
@@ -101,6 +108,9 @@ public class home extends AppCompatActivity {
                 event_location.add(cursor.getString(5));
                 event_description.add(cursor.getString(6));
             }
+            empty_imgView.setVisibility(View.GONE);
+            empty_textView.setVisibility(View.GONE);
+
         }
     }
 
