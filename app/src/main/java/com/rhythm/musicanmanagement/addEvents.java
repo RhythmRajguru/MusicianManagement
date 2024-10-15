@@ -29,7 +29,46 @@ public class addEvents extends AppCompatActivity {
         etDescription=findViewById(R.id.etDescription);
 
         add_databtn=findViewById(R.id.add_databtn);
-        add_databtn.setOnClickListener(new View.OnClickListener() {
+        String title=etTitleName.getText().toString();
+        String people=etPeopleCount.getText().toString();
+        String date=etDate.getText().toString();
+        String time=etTime.getText().toString();
+        String location=etLocation.getText().toString();
+        String description=etDescription.getText().toString();
+
+        if(title.isEmpty()){
+            etTitleName.requestFocus();
+            etTitleName.setError("Please enter Title name");
+            return;
+        }else if(people.isEmpty()){
+            etPeopleCount.requestFocus();
+            etPeopleCount.setError("Please enter People count");
+            return;
+        }
+        else if(date.isEmpty())
+        {
+            etDate.requestFocus();
+            etDate.setError("Please enter date");
+            return;
+        }
+        else if(time.isEmpty()){
+            etTime.requestFocus();
+            etTime.setError("Please enter time");
+            return;
+        }
+
+
+        else if(location.isEmpty()){
+            etLocation.requestFocus();
+            etLocation.setError("Please enter location");
+            return;
+        }
+        else if(description.isEmpty()){
+            etDescription.requestFocus();
+            etDescription.setError("Please enter description");
+            return;
+        }
+        else { add_databtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 myDatabseHelper myDB=new myDatabseHelper(addEvents.this);
@@ -54,3 +93,4 @@ public class addEvents extends AppCompatActivity {
 
 
     }
+}
