@@ -84,8 +84,7 @@ public class addEvents extends AppCompatActivity {
                     etLocation.setText("");
                     etDescription.setText("");
 
-                    Intent i = new Intent(getApplicationContext(), home.class);
-                    startActivity(i);
+                    finish();
                 }
 
             }

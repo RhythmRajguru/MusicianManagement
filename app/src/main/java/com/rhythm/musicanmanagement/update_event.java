@@ -50,8 +50,7 @@ public class update_event extends AppCompatActivity {
                 description=etDescription.getText().toString().trim();
                 myDB.updateData(id,title,people,date,time,location,description);
 
-                Intent i=new Intent(getApplicationContext(),home.class);
-                startActivity(i);
+                finish();
             }
         });
         btn_delete.setOnClickListener(new View.OnClickListener() {
@@ -99,8 +98,7 @@ public class update_event extends AppCompatActivity {
             public void onClick(DialogInterface dialog, int which) {
                 myDatabseHelper myDB=new myDatabseHelper(update_event.this);
                 myDB.deleteOnerow(id);
-                Intent i=new Intent(getApplicationContext(),home.class);
-                startActivity(i);
+                finish();
             }
         });
         builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
