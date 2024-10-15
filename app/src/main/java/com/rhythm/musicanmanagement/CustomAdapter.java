@@ -54,8 +54,8 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
         holder.event_description_text.setText(String.valueOf(event_description.get(position)));
         holder.event_date_text.setText(String.valueOf(event_date.get(position)));
         holder.event_location_text.setText(String.valueOf(event_location.get(position)));
-        try{
-            holder.btn_edit.setOnClickListener(new View.OnClickListener() {
+
+            holder.mainLayout.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     Intent i=new Intent(context, update_event.class);
@@ -71,10 +71,6 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
 
                 }
             });
-        }catch (Exception e){
-            e.getMessage();
-
-        }
 
 
     }
@@ -86,7 +82,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
         TextView event_id_text,event_title_text,event_description_text,event_date_text,event_location_text;
-        Button btn_edit,btn_delete;
+        androidx.cardview.widget.CardView mainLayout;
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -96,8 +92,8 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
             event_date_text=itemView.findViewById(R.id.event_date_text);
             event_location_text=itemView.findViewById(R.id.event_location_text);
 
-            btn_edit=itemView.findViewById(R.id.btn_edit);
-            btn_delete=itemView.findViewById(R.id.btn_delete);
+            mainLayout=itemView.findViewById(R.id.mainLayout);
+
 
         }
     }

@@ -2,6 +2,8 @@ package com.rhythm.musicanmanagement;
 
 import static android.content.ContentValues.TAG;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -18,7 +20,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class update_event extends AppCompatActivity {
     EditText etTitleName,etPeopleCount,etDate,etTime,etLocation,etDescription;
-    Button update_databtn;
+    Button update_databtn,btn_delete;
     String id,title,people,date,time,location,description;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +34,7 @@ public class update_event extends AppCompatActivity {
         etDescription=findViewById(R.id.etDescription);
 
         update_databtn=findViewById(R.id.update_databtn);
+        btn_delete=findViewById(R.id.btn_delete);
 
         getandSetIntentData();
 
@@ -49,6 +52,13 @@ public class update_event extends AppCompatActivity {
 
                 Intent i=new Intent(getApplicationContext(),home.class);
                 startActivity(i);
+            }
+        });
+        btn_delete.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+               confirmDialog();
+
             }
         });
 
@@ -79,5 +89,27 @@ public class update_event extends AppCompatActivity {
         else{
             Toast.makeText(this, "No Data....", Toast.LENGTH_SHORT).show();
         }
+    }
+    void confirmDialog(){
+        AlertDialog.Builder builder=new AlertDialog.Builder(this);
+        builder.setTitle("Delete "+ title + " ?");
+        builder.setMessage("Are you sure you want to delete "+ title + " ?");
+        builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                myDatabseHelper myDB=new myDatabseHelper(update_event.this);
+                myDB.deleteOnerow(id);
+                Intent i=new Intent(getApplicationContext(),home.class);
+                startActivity(i);
+            }
+        });
+        builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+
+            }
+        });
+        builder.create().show();
+
     }
 }

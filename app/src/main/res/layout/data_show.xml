@@ -77,32 +77,6 @@
             android:layout_toRightOf="@id/event_id_text"
             android:layout_marginLeft="10dp"
             />
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_below="@+id/event_location_text"
-            android:layout_marginTop="10dp">
-            <Button
-                android:id="@+id/btn_edit"
-                android:layout_width="160dp"
-                android:layout_height="wrap_content"
-                android:text="Edit"
-                android:textColor="@color/white"
-                android:backgroundTint="#3BB5EC"
 
-                />
-            <Button
-                android:id="@+id/btn_delete"
-                android:layout_width="160dp"
-                android:layout_height="wrap_content"
-                android:text="Delete"
-                android:textColor="@color/white"
-
-                android:backgroundTint="#3BB5EC"
-                android:layout_marginLeft="35dp"
-                />
-
-        </LinearLayout>
     </RelativeLayout>
 </androidx.cardview.widget.CardView>
