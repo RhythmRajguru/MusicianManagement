@@ -10,6 +10,8 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -23,6 +25,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
     private Context context;
     Activity activity;
     private ArrayList event_id,event_title,event_people,event_date,event_time,event_location,event_description;
+    Animation translate_anim;
 
     CustomAdapter(Activity activity,Context context,ArrayList event_id
             ,ArrayList event_title,ArrayList event_people,
@@ -93,6 +96,10 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
             event_location_text=itemView.findViewById(R.id.event_location_text);
 
             mainLayout=itemView.findViewById(R.id.mainLayout);
+
+            //animation for recyclerview
+            translate_anim= AnimationUtils.loadAnimation(context,R.anim.translate_anim);
+            mainLayout.setAnimation(translate_anim);
 
 
         }
