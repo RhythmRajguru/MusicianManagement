@@ -6,21 +6,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".addEvents">
-
-    <TextView
-        android:id="@+id/textView"
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:fontFamily="cursive"
-        android:gravity="center"
-        android:text="Add Event"
-        android:textColor="#EA4C83"
-        android:textSize="50dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#9578E1"
+        app:title="@string/app_name"
         tools:ignore="MissingConstraints" />
+
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/titleLayout"
@@ -29,11 +22,11 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="80dp"
         android:layout_marginEnd="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
         tools:ignore="MissingConstraints">
 
         <EditText

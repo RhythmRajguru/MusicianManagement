@@ -9,6 +9,7 @@ import android.widget.EditText;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
@@ -16,6 +17,7 @@ import androidx.core.view.WindowInsetsCompat;
 public class addEvents extends AppCompatActivity {
     EditText etTitleName,etPeopleCount,etDate,etTime,etLocation,etDescription;
     Button add_databtn;
+    Toolbar toolbar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +31,11 @@ public class addEvents extends AppCompatActivity {
         etDescription=findViewById(R.id.etDescription);
 
         add_databtn=findViewById(R.id.add_databtn);
+
+        //toolbar added
+        toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        toolbar.setTitle("Add Data");
          add_databtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

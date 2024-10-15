@@ -8,6 +8,7 @@ import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -21,12 +22,16 @@ public class home extends AppCompatActivity {
     myDatabseHelper myDB;
     ArrayList<String> event_id,event_title,event_people,event_date,event_time,event_location,event_description;
     CustomAdapter customAdapter;
+    Toolbar toolbar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         recyclerView=findViewById(R.id.recyclerView);
         add_button=findViewById(R.id.add_button);
+        //toolbar added
+        toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
         add_button.setOnClickListener(new View.OnClickListener() {
             @Override

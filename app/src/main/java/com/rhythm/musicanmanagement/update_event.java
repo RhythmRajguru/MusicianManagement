@@ -14,6 +14,7 @@ import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
@@ -22,6 +23,7 @@ public class update_event extends AppCompatActivity {
     EditText etTitleName,etPeopleCount,etDate,etTime,etLocation,etDescription;
     Button update_databtn,btn_delete;
     String id,title,people,date,time,location,description;
+    Toolbar toolbar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,6 +37,11 @@ public class update_event extends AppCompatActivity {
 
         update_databtn=findViewById(R.id.update_databtn);
         btn_delete=findViewById(R.id.btn_delete);
+
+        //toolbar added
+        toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        toolbar.setTitle("Update Data");
 
         getandSetIntentData();
 
