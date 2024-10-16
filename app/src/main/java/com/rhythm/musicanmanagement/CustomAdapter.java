@@ -52,8 +52,8 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
 
     @Override
     public void onBindViewHolder(@NonNull CustomAdapter.MyViewHolder holder, @SuppressLint("RecyclerView") final int position) {
-        holder.event_id_text.setText(String.valueOf(event_id.get(position)));
         holder.event_title_text.setText(String.valueOf(event_title.get(position)));
+        holder.event_time_text.setText(String.valueOf(event_time.get(position)));
         holder.event_description_text.setText(String.valueOf(event_description.get(position)));
         holder.event_date_text.setText(String.valueOf(event_date.get(position)));
         holder.event_location_text.setText(String.valueOf(event_location.get(position)));
@@ -84,16 +84,17 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
     }
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
-        TextView event_id_text,event_title_text,event_description_text,event_date_text,event_location_text;
+        TextView event_title_text,event_time_text,event_description_text,event_date_text,event_location_text;
         androidx.cardview.widget.CardView mainLayout;
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
-            event_id_text=itemView.findViewById(R.id.event_id_text);
+
             event_title_text=itemView.findViewById(R.id.event_title_text);
             event_description_text=itemView.findViewById(R.id.event_description_text);
             event_date_text=itemView.findViewById(R.id.event_date_text);
             event_location_text=itemView.findViewById(R.id.event_location_text);
+            event_time_text=itemView.findViewById(R.id.event_time_text);
 
             mainLayout=itemView.findViewById(R.id.mainLayout);
 
