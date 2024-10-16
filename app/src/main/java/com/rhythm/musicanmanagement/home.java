@@ -11,6 +11,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -209,6 +210,7 @@ public class home extends AppCompatActivity {
         Collections.reverse(event_location);
         Collections.reverse(event_description);
         customAdapter.notifyDataSetChanged();
+        Toast.makeText(this, "Data sorted by newest", Toast.LENGTH_SHORT).show();
     }
 
     // Sort by oldest
@@ -236,16 +238,123 @@ public class home extends AppCompatActivity {
         event_description.addAll(original_event_description);
 
         customAdapter.notifyDataSetChanged();
+        Toast.makeText(this, "Data sorted by oldest", Toast.LENGTH_SHORT).show();
     }
 
     // Sort by date ascending
     void sortByDateAscending() {
-
+        sortEventsByDate(true);
+        Toast.makeText(this, "Data sorted by Date in ascending", Toast.LENGTH_SHORT).show();
     }
 
     // Sort by date descending
     void sortByDateDescending() {
+        sortEventsByDate(false);
+        Toast.makeText(this, "Data sorted by Date in Descending", Toast.LENGTH_SHORT).show();
+    }
+    // Helper method to sort events by date
+    private void sortEventsByDate(boolean ascending) {
+        SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy", Locale.getDefault());
 
+        // Create a list of events to sort
+        ArrayList<Event> events = new ArrayList<>();
+        for (int i = 0; i < event_id.size(); i++) {
+            try {
+                Date date = dateFormat.parse(event_date.get(i));
+                events.add(new Event(
+                        event_id.get(i),
+                        event_title.get(i),
+                        event_people.get(i),
+                        date, // Store date for sorting
+                        event_time.get(i),
+                        event_location.get(i),
+                        event_description.get(i)
+                ));
+            } catch (ParseException e) {
+                e.printStackTrace();
+            }
+        }
+
+        // Sort the events based on date
+        Collections.sort(events, new Comparator<Event>() {
+            @Override
+            public int compare(Event e1, Event e2) {
+                if (ascending) {
+                    return e1.getDate().compareTo(e2.getDate());
+                } else {
+                    return e2.getDate().compareTo(e1.getDate());
+                }
+            }
+        });
+
+        // Clear existing data and add sorted data back to the lists
+        event_id.clear();
+        event_title.clear();
+        event_people.clear();
+        event_date.clear();
+        event_time.clear();
+        event_location.clear();
+        event_description.clear();
+
+        for (Event event : events) {
+            event_id.add(event.getId());
+            event_title.add(event.getTitle());
+            event_people.add(event.getPeople());
+            event_date.add(dateFormat.format(event.getDate()));
+            event_time.add(event.getTime());
+            event_location.add(event.getLocation());
+            event_description.add(event.getDescription());
+        }
+
+        // Notify the adapter of the updated data
+        customAdapter.notifyDataSetChanged();
     }
 
-}
+    // Event class to hold event details
+    private class Event {
+        private String id;
+        private String title;
+        private String people;
+        private Date date;
+        private String time;
+        private String location;
+        private String description;
+
+        public Event(String id, String title, String people, Date date, String time, String location, String description) {
+            this.id = id;
+            this.title = title;
+            this.people = people;
+            this.date = date;
+            this.time = time;
+            this.location = location;
+            this.description = description;
+        }
+
+        public String getId() {
+            return id;
+        }
+
+        public String getTitle() {
+            return title;
+        }
+
+        public String getPeople() {
+            return people;
+        }
+
+        public Date getDate() {
+            return date;
+        }
+
+        public String getTime() {
+            return time;
+        }
+
+        public String getLocation() {
+            return location;
+        }
+
+        public String getDescription() {
+            return description;
+        }
+}}
