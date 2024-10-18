@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -32,6 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="Enter Event Name"
+            android:textSize="20sp"
             android:inputType="text"
             tools:ignore="MissingConstraints" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -54,6 +55,7 @@
             android:id="@+id/etPeopleCount"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:textSize="20sp"
             android:hint="Enter People Count"
             android:inputType="number"
             tools:ignore="MissingConstraints" />
@@ -78,6 +80,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="Enter Date"
+            android:textSize="20sp"
             android:inputType="date"
             tools:ignore="MissingConstraints" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -100,6 +103,7 @@
             android:id="@+id/etTime"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:textSize="20sp"
             android:hint="Enter Time"
 
             android:inputType="time"
@@ -125,6 +129,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="Enter Location"
+            android:textSize="20sp"
             android:inputType="text"
             tools:ignore="MissingConstraints" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -149,6 +154,7 @@
             android:layout_height="100dp"
             android:gravity="top|start"
             android:hint="Enter Description"
+            android:textSize="20sp"
             android:inputType="textMultiLine"
             tools:ignore="MissingConstraints" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -158,10 +164,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="80dp"
         android:backgroundTint="#9370DB"
         android:text="Add Data"
+        android:textSize="20sp"
         android:textColor="#fff"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
