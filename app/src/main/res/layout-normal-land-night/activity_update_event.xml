@@ -10,7 +10,7 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="#9578E1"
+        android:background="#282828"
         app:title="@string/app_name"
         tools:ignore="MissingConstraints" />
 
@@ -31,6 +31,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter Event Name"
+            android:textColor="@color/white"
             android:inputType="text"
             tools:ignore="MissingConstraints" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -52,6 +53,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter People Count"
+            android:textColor="@color/white"
             android:inputType="number"
             tools:ignore="MissingConstraints" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -73,6 +75,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter Date"
+            android:textColor="@color/white"
             android:inputType="date"
             tools:ignore="MissingConstraints" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -97,7 +100,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter Time"
-
+            android:textColor="@color/white"
             android:inputType="time"
             tools:ignore="MissingConstraints" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -121,6 +124,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter Location"
+            android:textColor="@color/white"
             android:inputType="text"
             tools:ignore="MissingConstraints" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -144,6 +148,7 @@
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:gravity="top|start"
+            android:textColor="@color/white"
             android:hint="Enter Description"
             android:inputType="textMultiLine"
             tools:ignore="MissingConstraints" />
@@ -157,7 +162,7 @@
 
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
-        android:backgroundTint="#9370DB"
+        android:backgroundTint="#383838"
         android:text="Update Data"
         android:textColor="#fff"
         app:layout_constraintEnd_toEndOf="parent"
@@ -173,7 +178,7 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="10dp"
-        android:backgroundTint="#9370DB"
+        android:backgroundTint="#383838"
         android:text="Delete"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"

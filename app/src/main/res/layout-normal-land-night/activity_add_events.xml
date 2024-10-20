@@ -5,14 +5,15 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".update_event">
+    tools:context=".addEvents">
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="#9578E1"
+        android:background="#282828"
         app:title="@string/app_name"
         tools:ignore="MissingConstraints" />
+
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/titleLayout"
@@ -31,6 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter Event Name"
+            android:textColor="@color/white"
             android:inputType="text"
             tools:ignore="MissingConstraints" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -52,6 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter People Count"
+            android:textColor="@color/white"
             android:inputType="number"
             tools:ignore="MissingConstraints" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -73,10 +76,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter Date"
+            android:textColor="@color/white"
             android:inputType="date"
             tools:ignore="MissingConstraints" />
     </com.google.android.material.textfield.TextInputLayout>
-
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/timeLayout"
@@ -97,7 +100,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter Time"
-
+            android:textColor="@color/white"
             android:inputType="time"
             tools:ignore="MissingConstraints" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -121,6 +124,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter Location"
+            android:textColor="@color/white"
             android:inputType="text"
             tools:ignore="MissingConstraints" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -142,47 +146,25 @@
         <EditText
             android:id="@+id/etDescription"
             android:layout_width="match_parent"
-            android:layout_height="80dp"
+            android:layout_height="100dp"
             android:gravity="top|start"
             android:hint="Enter Description"
+            android:textColor="@color/white"
             android:inputType="textMultiLine"
             tools:ignore="MissingConstraints" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/update_databtn"
+        android:id="@+id/add_databtn"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
 
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="10dp"
-        android:backgroundTint="#9370DB"
-        android:text="Update Data"
+        android:backgroundTint="#383838"
+        android:text="Add Data"
         android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="@+id/timeLayout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/dateLayout"
-        app:layout_constraintTop_toBottomOf="@+id/descriptionLayout"
-        tools:ignore="MissingConstraints" />
-
-    <Button
-        android:id="@+id/btn_delete"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="10dp"
-        android:backgroundTint="#9370DB"
-        android:text="Delete"
-        android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.514"
         app:layout_constraintStart_toEndOf="@+id/timeLayout"
-        app:layout_constraintTop_toBottomOf="@+id/update_databtn"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintTop_toBottomOf="@+id/dateLayout"
         tools:ignore="MissingConstraints" />
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
