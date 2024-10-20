@@ -52,7 +52,7 @@ public class home extends AppCompatActivity {
         //toolbar added
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
+        toolbar.setTitle("Recent Events");
         add_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

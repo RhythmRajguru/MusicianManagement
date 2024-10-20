@@ -21,8 +21,8 @@
         android:layout_width="500dp"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
         tools:ignore="MissingConstraints">
@@ -32,8 +32,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter Event Name"
-            android:textSize="30sp"
             android:inputType="text"
+            android:textSize="30sp"
             tools:ignore="MissingConstraints" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -43,8 +43,8 @@
         android:layout_width="500dp"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:layout_marginStart="30dp"
         android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titleLayout"
         tools:ignore="MissingConstraints">
@@ -54,7 +54,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter People Count"
-            android:textSize="30sp"            android:inputType="number"
+            android:inputType="number"
+            android:textSize="30sp"
             tools:ignore="MissingConstraints" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -64,8 +65,8 @@
         android:layout_width="500dp"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:layout_marginStart="30dp"
         android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/peopleLayout"
         tools:ignore="MissingConstraints">
@@ -75,8 +76,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter Date"
-            android:textSize="30sp"
             android:inputType="date"
+            android:textSize="30sp"
             tools:ignore="MissingConstraints" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -86,12 +87,10 @@
         android:layout_width="500dp"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:layout_marginStart="30dp"
         android:layout_marginTop="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/dateLayout"
-        app:layout_constraintVertical_bias="0.0"
         tools:ignore="MissingConstraints">
 
         <EditText
@@ -99,8 +98,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter Time"
-            android:textSize="30sp"
             android:inputType="time"
+            android:textSize="30sp"
             tools:ignore="MissingConstraints" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -110,12 +109,9 @@
         android:layout_width="500dp"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="200dp"
-        android:layout_marginEnd="10dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/titleLayout"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timeLayout"
         tools:ignore="MissingConstraints">
 
         <EditText
@@ -123,8 +119,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter Location"
-            android:textSize="30sp"
             android:inputType="text"
+            android:textSize="30sp"
             tools:ignore="MissingConstraints" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -134,11 +130,9 @@
         android:layout_width="500dp"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:layout_marginStart="10dp"
         android:layout_marginTop="20dp"
-        android:layout_marginEnd="10dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/peopleLayout"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/locationLayout"
         tools:ignore="MissingConstraints">
 
@@ -148,8 +142,8 @@
             android:layout_height="100dp"
             android:gravity="top|start"
             android:hint="Enter Description"
-            android:textSize="30sp"
             android:inputType="textMultiLine"
+            android:textSize="30sp"
             tools:ignore="MissingConstraints" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -157,13 +151,13 @@
         android:id="@+id/add_databtn"
         android:layout_width="500dp"
         android:layout_height="wrap_content"
-        android:textSize="30sp"
+        android:layout_marginTop="50dp"
         android:backgroundTint="#9370DB"
         android:text="Add Data"
         android:textColor="#fff"
-        app:layout_constraintBottom_toBottomOf="@+id/timeLayout"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/timeLayout"
-        app:layout_constraintTop_toBottomOf="@+id/dateLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descriptionLayout"
         tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>

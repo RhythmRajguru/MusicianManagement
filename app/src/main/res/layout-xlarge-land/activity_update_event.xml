@@ -11,17 +11,17 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="#9578E1"
-        app:title="@string/app_name"
+        app:title="Update Event"
         tools:ignore="MissingConstraints" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/titleLayout"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:layout_width="300dp"
+        android:layout_width="500dp"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
         tools:ignore="MissingConstraints">
@@ -38,11 +38,11 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/peopleLayout"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:layout_width="300dp"
+        android:layout_width="500dp"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:layout_marginStart="30dp"
         android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titleLayout"
         tools:ignore="MissingConstraints">
@@ -59,11 +59,11 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/dateLayout"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:layout_width="300dp"
+        android:layout_width="500dp"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:layout_marginStart="30dp"
         android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/peopleLayout"
         tools:ignore="MissingConstraints">
@@ -81,15 +81,13 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/timeLayout"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:layout_width="300dp"
+        android:layout_width="500dp"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:layout_marginStart="30dp"
         android:layout_marginTop="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/dateLayout"
-        app:layout_constraintVertical_bias="0.0"
         tools:ignore="MissingConstraints">
 
         <EditText
@@ -105,15 +103,12 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/locationLayout"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:layout_width="300dp"
+        android:layout_width="500dp"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="200dp"
-        android:layout_marginEnd="10dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/titleLayout"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timeLayout"
         tools:ignore="MissingConstraints">
 
         <EditText
@@ -128,14 +123,12 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/descriptionLayout"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:layout_width="300dp"
+        android:layout_width="500dp"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:layout_marginStart="10dp"
         android:layout_marginTop="20dp"
-        android:layout_marginEnd="10dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/peopleLayout"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/locationLayout"
         tools:ignore="MissingConstraints">
 
@@ -151,37 +144,30 @@
 
     <Button
         android:id="@+id/update_databtn"
-        android:layout_width="300dp"
+        android:layout_width="500dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
 
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="10dp"
+        android:layout_marginTop="50dp"
         android:backgroundTint="#9370DB"
         android:text="Update Data"
         android:textColor="#fff"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/dateLayout"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/descriptionLayout"
         tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/btn_delete"
-        android:layout_width="300dp"
+        android:layout_width="500dp"
         android:layout_height="wrap_content"
 
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
         android:backgroundTint="#9370DB"
         android:text="Delete"
         android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
-        app:layout_constraintStart_toEndOf="@+id/timeLayout"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/update_databtn"
-        app:layout_constraintVertical_bias="0.0"
         tools:ignore="MissingConstraints" />
 
 

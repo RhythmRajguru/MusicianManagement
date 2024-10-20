@@ -41,7 +41,7 @@ public class update_event extends AppCompatActivity {
         //toolbar added
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        toolbar.setTitle("Update Data");
+        toolbar.setTitle("Update Event");
 
         getandSetIntentData();
 
