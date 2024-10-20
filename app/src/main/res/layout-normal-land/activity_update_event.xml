@@ -29,7 +29,7 @@
         <EditText
             android:id="@+id/etTitleName"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="wrap_content"
             android:hint="Enter Event Name"
             android:inputType="text"
             tools:ignore="MissingConstraints" />
@@ -42,7 +42,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="2dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titleLayout"
         tools:ignore="MissingConstraints">
@@ -50,7 +50,7 @@
         <EditText
             android:id="@+id/etPeopleCount"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="wrap_content"
             android:hint="Enter People Count"
             android:inputType="number"
             tools:ignore="MissingConstraints" />
@@ -63,7 +63,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="2dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/peopleLayout"
         tools:ignore="MissingConstraints">
@@ -71,11 +71,12 @@
         <EditText
             android:id="@+id/etDate"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="wrap_content"
             android:hint="Enter Date"
             android:inputType="date"
             tools:ignore="MissingConstraints" />
     </com.google.android.material.textfield.TextInputLayout>
+
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/timeLayout"
@@ -83,16 +84,18 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/dateLayout"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="MissingConstraints">
 
         <EditText
             android:id="@+id/etTime"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="wrap_content"
             android:hint="Enter Time"
 
             android:inputType="time"
@@ -107,14 +110,16 @@
         android:layout_centerInParent="true"
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/timeLayout"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/titleLayout"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
         tools:ignore="MissingConstraints">
 
         <EditText
             android:id="@+id/etLocation"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="wrap_content"
             android:hint="Enter Location"
             android:inputType="text"
             tools:ignore="MissingConstraints" />
@@ -127,33 +132,37 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/peopleLayout"
         app:layout_constraintTop_toBottomOf="@+id/locationLayout"
         tools:ignore="MissingConstraints">
 
         <EditText
             android:id="@+id/etDescription"
             android:layout_width="match_parent"
-            android:layout_height="45dp"
+            android:layout_height="80dp"
             android:gravity="top|start"
             android:hint="Enter Description"
             android:inputType="textMultiLine"
             tools:ignore="MissingConstraints" />
     </com.google.android.material.textfield.TextInputLayout>
 
-
     <Button
         android:id="@+id/update_databtn"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:backgroundTint="#9370DB"
+        android:layout_marginStart="10dp"
 
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="#9370DB"
         android:text="Update Data"
         android:textColor="#fff"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/dateLayout"
-        app:layout_constraintTop_toBottomOf="@+id/peopleLayout"
+        app:layout_constraintTop_toBottomOf="@+id/descriptionLayout"
         tools:ignore="MissingConstraints" />
 
     <Button
@@ -161,13 +170,17 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
 
-        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
         android:backgroundTint="#9370DB"
         android:text="Delete"
-        app:layout_constraintBottom_toBottomOf="@+id/timeLayout"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
         app:layout_constraintStart_toEndOf="@+id/timeLayout"
         app:layout_constraintTop_toBottomOf="@+id/update_databtn"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="MissingConstraints" />
 
 
