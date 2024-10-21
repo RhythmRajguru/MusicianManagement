@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/delete_all"
+        android:icon="@drawable/delete_white"
+        app:showAsAction="always"
+        android:title="DeleteAll" />
+    <item android:id="@+id/logout"
+        android:icon="@drawable/baseline_loginwhite_24"
+        app:showAsAction="always"
+        android:title="Logout" />
+    <item
+        android:id="@+id/sort_newest"
+        android:title="Sort by Newest" />
+    <item
+        android:id="@+id/sort_oldest"
+        android:title="Sort by Oldest" />
+    <item
+        android:id="@+id/sort_date_asc"
+        android:title="Sort by Date Ascending" />
+    <item
+        android:id="@+id/sort_date_desc"
+        android:title="Sort by Date Descending" />
+</menu>
