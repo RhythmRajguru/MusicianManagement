@@ -1,1 +1,47 @@
-"Data is not available for security reasons"
+{
+  "project_info": {
+    "project_number": "52325094521",
+    "project_id": "musicianmanagement-95d60",
+    "storage_bucket": "musicianmanagement-95d60.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52325094521:android:b872ab8abe32441c94f0a8",
+        "android_client_info": {
+          "package_name": "com.rhythm.musicanmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "52325094521-pao9cpk9pr8nuu5sstje2dusqv0qgtg0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rhythm.musicanmanagement",
+            "certificate_hash": "9e2fd9dcfd1c70ebbde79572430f4a375770f956"
+          }
+        },
+        {
+          "client_id": "52325094521-of4d9894re734g5aidmg248v8irv0r08.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5QSRQtVSwENxMFstQEoAKx3v4AbLGtS0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "52325094521-of4d9894re734g5aidmg248v8irv0r08.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
