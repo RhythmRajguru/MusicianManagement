@@ -28,6 +28,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.firebase.auth.FirebaseAuth;
 
 
 public class home extends AppCompatActivity {
@@ -161,6 +162,10 @@ public class home extends AppCompatActivity {
             confirmDialog();
             return true;
         }
+        else if (item.getItemId()==R.id.logout){
+            logout();
+            return true;
+        }
         else if (item.getItemId()==R.id.sort_newest){
             sortByNewest();
             return true;
@@ -199,6 +204,11 @@ public class home extends AppCompatActivity {
         });
         builder.create().show();
 
+    }
+    void logout(){
+        FirebaseAuth.getInstance().signOut();
+        startActivity(new Intent(getApplicationContext(),activity_login.class));
+        finish();
     }
     // Sort by newest (assuming data is added in order)
     void sortByNewest() {

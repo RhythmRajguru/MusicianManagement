@@ -6,6 +6,10 @@
     android:icon="@drawable/delete"
     app:showAsAction="always"
     android:title="DeleteAll" />
+   <item android:id="@+id/logout"
+       android:icon="@drawable/baseline_login_24"
+       app:showAsAction="always"
+       android:title="Logout" />
    <item
        android:id="@+id/sort_newest"
        android:title="Sort by Newest" />
