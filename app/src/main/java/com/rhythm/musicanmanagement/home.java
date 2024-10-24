@@ -27,6 +27,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.google.android.gms.ads.MobileAds;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.auth.FirebaseAuth;
 
@@ -74,6 +75,7 @@ public class home extends AppCompatActivity {
     customAdapter=new CustomAdapter(home.this,getApplicationContext(),event_id,event_title,event_people,event_date,event_time,event_location,event_description);
     recyclerView.setAdapter(customAdapter);
     recyclerView.setLayoutManager(new LinearLayoutManager(home.this));
+
 
     }
     @Override

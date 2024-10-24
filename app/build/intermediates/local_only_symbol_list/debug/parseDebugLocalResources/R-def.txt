@@ -18,6 +18,7 @@ drawable empty_white
 drawable google_logo
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+id adView
 id add_button
 id add_databtn
 id btn_delete

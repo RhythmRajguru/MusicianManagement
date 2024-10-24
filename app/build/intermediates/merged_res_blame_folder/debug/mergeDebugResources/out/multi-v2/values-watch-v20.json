@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.rhythm.musicanmanagement.app-mergeDebugResources-38:/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "com.rhythm.musicanmanagement.app-mergeDebugResources-42:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\rajgu\\.gradle\\caches\\transforms-3\\b1860da0215dc27e0e4c92ff02568f2e\\transformed\\appcompat-1.7.0\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "source": "C:\\Users\\rajgu\\.gradle\\caches\\transforms-3\\a5723918d70eb97e4f17603eb7594210\\transformed\\appcompat-1.7.0\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\rajgu\\.gradle\\caches\\transforms-3\\94fa5e514e8f7c26e5dfd2bbbb5cb5b5\\transformed\\play-services-auth-20.7.0\\res\\values-watch-v20\\values.xml",
+                    "source": "C:\\Users\\rajgu\\.gradle\\caches\\transforms-3\\2b81d19ad02916b6084ddbf73ad5ac8f\\transformed\\play-services-auth-20.7.0\\res\\values-watch-v20\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",

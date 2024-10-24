@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.rhythm.musicanmanagement.app-mergeDebugResources-38:/values-h360dp-land-v13/values-h360dp-land-v13.xml",
+            "outputFile": "com.rhythm.musicanmanagement.app-mergeDebugResources-42:/values-h360dp-land-v13/values-h360dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\rajgu\\.gradle\\caches\\transforms-3\\343856b1477e16d2355b501e48703cad\\transformed\\material-1.12.0\\res\\values-h360dp-land-v13\\values-h360dp-land-v13.xml",
+                    "source": "C:\\Users\\rajgu\\.gradle\\caches\\transforms-3\\c98bb1b3c50503d6bf0fbc2b30ce9b5b\\transformed\\material-1.12.0\\res\\values-h360dp-land-v13\\values-h360dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
