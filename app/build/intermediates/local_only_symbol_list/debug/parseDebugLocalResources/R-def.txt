@@ -15,9 +15,9 @@ drawable delete
 drawable delete_white
 drawable empty
 drawable empty_white
+drawable google_logo
 drawable ic_launcher_background
 drawable ic_launcher_foreground
-drawable sort
 id add_button
 id add_databtn
 id btn_delete
@@ -65,6 +65,7 @@ id toolbar
 id txt_login
 id txt_signUp
 id update_databtn
+id view
 layout activity_add_events
 layout activity_home
 layout activity_login

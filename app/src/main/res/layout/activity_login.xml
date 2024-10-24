@@ -15,6 +15,8 @@
         android:background="#9578E1"
         app:title="Sign in"
         tools:ignore="MissingConstraints" />
+
+
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/emailLayout"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -61,29 +63,50 @@
             android:inputType="textPassword"
             tools:ignore="MissingConstraints" />
     </com.google.android.material.textfield.TextInputLayout>
+
     <Button
         android:id="@+id/btn_signIn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="30dp"
         android:text="Sign In"
+        android:backgroundTint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/passwordLayout" />
+        app:layout_constraintTop_toBottomOf="@+id/reset_password" />
 
-    <com.google.android.gms.common.SignInButton
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="20dp"
+        android:background="#282828"
+
+        app:layout_constraintBottom_toTopOf="@+id/googlebtn_signIn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_signIn"
+        tools:ignore="MissingConstraints" />
+
+    <Button
         android:id="@+id/googlebtn_signIn"
-        android:layout_width="200dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="30dp"
-        android:text="Sign In with Google"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/google_logo"
+        android:text="Sign in"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_signIn" />
+        app:layout_constraintTop_toBottomOf="@+id/view" />
 
     <TextView
         android:id="@+id/txt_signUp"
@@ -93,8 +116,8 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="30dp"
         android:gravity="center"
-        android:text="Don't Have an Account? SignUp here"
-        android:textColor="#053CFF"
+        android:text="Don't Have an Account? Register here"
+        android:textColor="@color/black"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -102,21 +125,18 @@
         tools:ignore="MissingConstraints" />
 
 
-
     <TextView
         android:id="@+id/reset_password"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="30dp"
         android:gravity="center"
-        android:text="Forgot Passoword?"
-        android:textColor="#053CFF"
-        android:textSize="16sp"
+        android:text="Forgot Password?"
+        android:textColor="@color/black"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_signUp"
+        app:layout_constraintTop_toBottomOf="@+id/passwordLayout"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

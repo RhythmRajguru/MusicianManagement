@@ -55,7 +55,8 @@ public class activity_login extends AppCompatActivity {
             if (currentUser.getEmail() != null) {
                 // User is signed in with email/password
                 String email = currentUser.getEmail();
-                Toast.makeText(this, "Welcome, " + email, Toast.LENGTH_SHORT).show();
+                String name=currentUser.getDisplayName();
+                Toast.makeText(this, "Welcome, " + name, Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(getApplicationContext(),home.class));
                 finish();
             }
@@ -84,7 +85,7 @@ public class activity_login extends AppCompatActivity {
         mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
 
         // Google Sign-In Button click listener
-        com.google.android.gms.common.SignInButton googleSignInButton = findViewById(R.id.googlebtn_signIn);
+        Button googleSignInButton = findViewById(R.id.googlebtn_signIn);
         googleSignInButton.setOnClickListener(v -> signIn());
 
         txt_signUp.setOnClickListener(new View.OnClickListener() {
