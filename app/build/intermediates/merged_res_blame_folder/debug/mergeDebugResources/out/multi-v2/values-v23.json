@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.rhythm.musicanmanagement.app-mergeDebugResources-39:/values-v23/values-v23.xml",
+            "outputFile": "com.rhythm.musicanmanagement.app-mergeDebugResources-38:/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "C:\\Users\\rajgu\\.gradle\\caches\\transforms-3\\c76023be9387e926668ef5566b168a21\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",

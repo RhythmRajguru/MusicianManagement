@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.rhythm.musicanmanagement.app-mergeDebugResources-39:/values-v21/values-v21.xml",
+            "outputFile": "com.rhythm.musicanmanagement.app-mergeDebugResources-38:/values-v21/values-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\rajgu\\.gradle\\caches\\transforms-3\\3f6fefced2373d41cedda7920d5ef363\\transformed\\credentials-play-services-auth-1.2.0-rc01\\res\\values-v21\\values-v21.xml",

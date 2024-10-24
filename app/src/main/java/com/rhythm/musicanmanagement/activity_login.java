@@ -84,7 +84,7 @@ public class activity_login extends AppCompatActivity {
         mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
 
         // Google Sign-In Button click listener
-        Button googleSignInButton = findViewById(R.id.googlebtn_signIn);
+        com.google.android.gms.common.SignInButton googleSignInButton = findViewById(R.id.googlebtn_signIn);
         googleSignInButton.setOnClickListener(v -> signIn());
 
         txt_signUp.setOnClickListener(new View.OnClickListener() {

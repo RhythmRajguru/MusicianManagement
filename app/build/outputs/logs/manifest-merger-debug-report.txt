@@ -1,12 +1,11 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:2:1-48:12
+ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:2:1-42:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\rajgu\.gradle\caches\transforms-3\343856b1477e16d2355b501e48703cad\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\rajgu\.gradle\caches\transforms-3\e5fd3edf305c06243f0910db5fb15ab0\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
-MERGED from [com.hbb20:ccp:2.5.0] C:\Users\rajgu\.gradle\caches\transforms-3\72a0cef3d8cf47ce4badbcf155ae3af9\transformed\ccp-2.5.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\rajgu\.gradle\caches\transforms-3\060b559e446e5801fc2abbc1890c331c\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\rajgu\.gradle\caches\transforms-3\b1860da0215dc27e0e4c92ff02568f2e\transformed\appcompat-1.7.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\rajgu\.gradle\caches\transforms-3\7c098beb0ddba294bee5814c3f1f7f7d\transformed\firebase-auth-23.0.0\AndroidManifest.xml:17:1-75:12
@@ -66,7 +65,6 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\rajgu\.gradle\ca
 MERGED from [androidx.print:print:1.0.0] C:\Users\rajgu\.gradle\caches\transforms-3\4eca032569fef5fbdaa5086d185586cb\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\rajgu\.gradle\caches\transforms-3\468c94862fe444564634730a4cd8576f\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\rajgu\.gradle\caches\transforms-3\bb92eb7edde65454c929f999ce49565f\transformed\googleid-1.1.0\AndroidManifest.xml:2:1-7:12
-MERGED from [io.michaelrocks:libphonenumber-android:8.12.19-2] C:\Users\rajgu\.gradle\caches\transforms-3\ea31232f546ae05052820ab2f3be7ac9\transformed\libphonenumber-android-8.12.19-2\AndroidManifest.xml:2:1-9:12
 	package
 		INJECTED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -86,8 +84,8 @@ MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\rajgu\.grad
 	android:name
 		ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:7:5-46:19
-INJECTED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:7:5-46:19
+ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:7:5-40:19
+INJECTED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:7:5-40:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\rajgu\.gradle\caches\transforms-3\343856b1477e16d2355b501e48703cad\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\rajgu\.gradle\caches\transforms-3\343856b1477e16d2355b501e48703cad\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\rajgu\.gradle\caches\transforms-3\e5fd3edf305c06243f0910db5fb15ab0\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -150,62 +148,50 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ra
 		ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:15:9-55
 	android:dataExtractionRules
 		ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:9:9-65
-activity#com.rhythm.musicanmanagement.manageOTP
+activity#com.rhythm.musicanmanagement.activity_register
 ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:17:9-19:40
 	android:exported
 		ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:19:13-37
 	android:name
-		ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:18:13-38
-activity#com.rhythm.musicanmanagement.phone_register
+		ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:18:13-46
+activity#com.rhythm.musicanmanagement.home
 ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:20:9-22:40
 	android:exported
 		ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:22:13-37
 	android:name
-		ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:21:13-43
-activity#com.rhythm.musicanmanagement.activity_register
-ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:23:9-25:40
+		ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:21:13-33
+activity#com.rhythm.musicanmanagement.update_event
+ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:23:9-26:50
+	android:parentActivityName
+		ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:26:13-47
 	android:exported
 		ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:25:13-37
 	android:name
-		ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:24:13-46
-activity#com.rhythm.musicanmanagement.home
-ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:26:9-28:40
-	android:exported
-		ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:28:13-37
-	android:name
-		ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:27:13-33
-activity#com.rhythm.musicanmanagement.update_event
-ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:29:9-32:50
-	android:parentActivityName
-		ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:32:13-47
-	android:exported
-		ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:31:13-37
-	android:name
-		ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:30:13-41
+		ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:24:13-41
 activity#com.rhythm.musicanmanagement.addEvents
-ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:33:9-36:50
+ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:27:9-30:50
 	android:parentActivityName
-		ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:36:13-47
+		ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:30:13-47
 	android:exported
-		ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:35:13-37
+		ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:29:13-37
 	android:name
-		ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:34:13-38
+		ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:28:13-38
 activity#com.rhythm.musicanmanagement.activity_login
-ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:37:9-45:20
+ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:31:9-39:20
 	android:exported
-		ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:39:13-36
+		ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:33:13-36
 	android:name
-		ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:38:13-43
+		ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:32:13-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:40:13-44:29
+ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:34:13-38:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:41:17-69
+ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:35:17-69
 	android:name
-		ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:41:25-66
+		ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:35:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:43:17-77
+ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:37:17-77
 	android:name
-		ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:43:27-74
+		ADDED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml:37:27-74
 uses-sdk
 INJECTED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\rajgu\AndroidStudioProjects\MusicanManagement\app\src\main\AndroidManifest.xml
@@ -214,8 +200,6 @@ MERGED from [com.google.android.material:material:1.12.0] C:\Users\rajgu\.gradle
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\rajgu\.gradle\caches\transforms-3\343856b1477e16d2355b501e48703cad\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\rajgu\.gradle\caches\transforms-3\e5fd3edf305c06243f0910db5fb15ab0\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\rajgu\.gradle\caches\transforms-3\e5fd3edf305c06243f0910db5fb15ab0\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
-MERGED from [com.hbb20:ccp:2.5.0] C:\Users\rajgu\.gradle\caches\transforms-3\72a0cef3d8cf47ce4badbcf155ae3af9\transformed\ccp-2.5.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.hbb20:ccp:2.5.0] C:\Users\rajgu\.gradle\caches\transforms-3\72a0cef3d8cf47ce4badbcf155ae3af9\transformed\ccp-2.5.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\rajgu\.gradle\caches\transforms-3\060b559e446e5801fc2abbc1890c331c\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\rajgu\.gradle\caches\transforms-3\060b559e446e5801fc2abbc1890c331c\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\rajgu\.gradle\caches\transforms-3\b1860da0215dc27e0e4c92ff02568f2e\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
@@ -334,8 +318,6 @@ MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\rajgu\.
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\rajgu\.gradle\caches\transforms-3\468c94862fe444564634730a4cd8576f\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\rajgu\.gradle\caches\transforms-3\bb92eb7edde65454c929f999ce49565f\transformed\googleid-1.1.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\rajgu\.gradle\caches\transforms-3\bb92eb7edde65454c929f999ce49565f\transformed\googleid-1.1.0\AndroidManifest.xml:5:5-44
-MERGED from [io.michaelrocks:libphonenumber-android:8.12.19-2] C:\Users\rajgu\.gradle\caches\transforms-3\ea31232f546ae05052820ab2f3be7ac9\transformed\libphonenumber-android-8.12.19-2\AndroidManifest.xml:5:5-7:41
-MERGED from [io.michaelrocks:libphonenumber-android:8.12.19-2] C:\Users\rajgu\.gradle\caches\transforms-3\ea31232f546ae05052820ab2f3be7ac9\transformed\libphonenumber-android-8.12.19-2\AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
 		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\rajgu\.gradle\caches\transforms-3\7c098beb0ddba294bee5814c3f1f7f7d\transformed\firebase-auth-23.0.0\AndroidManifest.xml:23:9-148
 	android:targetSdkVersion

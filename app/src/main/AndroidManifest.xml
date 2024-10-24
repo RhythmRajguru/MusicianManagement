@@ -15,12 +15,6 @@
         android:theme="@style/Theme.MusicanManagement"
         tools:targetApi="31">
         <activity
-            android:name=".manageOTP"
-            android:exported="false" />
-        <activity
-            android:name=".phone_register"
-            android:exported="false" />
-        <activity
             android:name=".activity_register"
             android:exported="false" />
         <activity

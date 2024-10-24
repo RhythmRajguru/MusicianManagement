@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.rhythm.musicanmanagement.app-mergeDebugResources-39:/values-ka/values-ka.xml",
+            "outputFile": "com.rhythm.musicanmanagement.app-mergeDebugResources-38:/values-ka/values-ka.xml",
             "map": [
                 {
                     "source": "C:\\Users\\rajgu\\.gradle\\caches\\transforms-3\\343856b1477e16d2355b501e48703cad\\transformed\\material-1.12.0\\res\\values-ka\\values-ka.xml",

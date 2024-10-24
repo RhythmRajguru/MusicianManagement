@@ -32,12 +32,6 @@
         android:testOnly="true"
         android:theme="@style/Theme.MusicanManagement" >
         <activity
-            android:name="com.rhythm.musicanmanagement.manageOTP"
-            android:exported="false" />
-        <activity
-            android:name="com.rhythm.musicanmanagement.phone_register"
-            android:exported="false" />
-        <activity
             android:name="com.rhythm.musicanmanagement.activity_register"
             android:exported="false" />
         <activity

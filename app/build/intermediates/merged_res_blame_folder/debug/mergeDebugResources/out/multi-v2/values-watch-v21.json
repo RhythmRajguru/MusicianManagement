@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.rhythm.musicanmanagement.app-mergeDebugResources-39:/values-watch-v21/values-watch-v21.xml",
+            "outputFile": "com.rhythm.musicanmanagement.app-mergeDebugResources-38:/values-watch-v21/values-watch-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\rajgu\\.gradle\\caches\\transforms-3\\b1860da0215dc27e0e4c92ff02568f2e\\transformed\\appcompat-1.7.0\\res\\values-watch-v21\\values-watch-v21.xml",

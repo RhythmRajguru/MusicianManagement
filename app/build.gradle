@@ -38,8 +38,6 @@ dependencies {
     implementation libs.firebase.auth
     implementation libs.play.services.auth.v2020 // Check for latest version
     testImplementation libs.junit
-    implementation libs.ccp
-
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core
     implementation libs.recyclerview

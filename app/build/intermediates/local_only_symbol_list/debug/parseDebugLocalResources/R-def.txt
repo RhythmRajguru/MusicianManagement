@@ -48,6 +48,7 @@ id locationLayout
 id logout
 id main
 id mainLayout
+id menu_with_submenu
 id nameLayout
 id passwordLayout
 id peopleLayout

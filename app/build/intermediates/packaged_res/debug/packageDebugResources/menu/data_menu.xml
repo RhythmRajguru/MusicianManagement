@@ -6,20 +6,32 @@
     android:icon="@drawable/delete"
     app:showAsAction="always"
     android:title="DeleteAll" />
+
+   <!-- Menu Item with Submenu -->
+   <item
+       android:id="@+id/menu_with_submenu"
+       android:title="Sort By">
+      <menu>
+
+         <item
+             android:id="@+id/sort_newest"
+             android:checkable="true"
+             android:title="Sort by Newest" />
+         <item
+             android:id="@+id/sort_oldest"
+             android:checkable="true"
+             android:title="Sort by Oldest" />
+         <item
+             android:id="@+id/sort_date_asc"
+             android:checkable="true"
+             android:title="Sort by Date Ascending" />
+         <item
+             android:id="@+id/sort_date_desc"
+             android:checkable="true"
+             android:title="Sort by Date Descending" />
+      </menu>
+   </item>
    <item android:id="@+id/logout"
        android:icon="@drawable/baseline_login_24"
-       app:showAsAction="always"
        android:title="Logout" />
-   <item
-       android:id="@+id/sort_newest"
-       android:title="Sort by Newest" />
-   <item
-       android:id="@+id/sort_oldest"
-       android:title="Sort by Oldest" />
-   <item
-       android:id="@+id/sort_date_asc"
-       android:title="Sort by Date Ascending" />
-   <item
-       android:id="@+id/sort_date_desc"
-       android:title="Sort by Date Descending" />
 </menu>
