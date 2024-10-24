@@ -37,7 +37,8 @@ dependencies {
     implementation libs.activity
     implementation libs.constraintlayout
     implementation libs.firebase.auth
-    implementation libs.play.services.auth.v2020 // Check for latest version
+    implementation libs.play.services.auth.v2020
+    implementation libs.firebase.messaging// Check for latest version
     testImplementation libs.junit
     implementation libs.play.services.ads.v2220
     androidTestImplementation libs.ext.junit

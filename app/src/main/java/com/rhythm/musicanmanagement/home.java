@@ -34,8 +34,12 @@ import com.google.android.gms.ads.LoadAdError;
 import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.interstitial.InterstitialAd;
 import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.messaging.FirebaseMessaging;
+import com.google.firebase.messaging.FirebaseMessagingService;
 
 
 public class home extends AppCompatActivity {
@@ -65,7 +69,16 @@ public class home extends AppCompatActivity {
         // Load Interstitial Ad
         loadInterstitialAd();
 
-
+        FirebaseMessaging.getInstance().subscribeToTopic("Event")
+                        .addOnCompleteListener(new OnCompleteListener<Void>() {
+                            @Override
+                            public void onComplete(@NonNull Task<Void> task) {
+                           String msg="Done";
+                           if(!task.isSuccessful()){
+                               msg="Failed";
+                           }
+                            }
+                        });
 
 
         add_button.setOnClickListener(new View.OnClickListener() {
@@ -414,4 +427,6 @@ public class home extends AppCompatActivity {
         public String getDescription() {
             return description;
         }
-}}
+}
+
+}

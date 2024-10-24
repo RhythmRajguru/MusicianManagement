@@ -1,398 +1,390 @@
 [
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-large_activity_register.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-large\\activity_register.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout_activity_home.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout/activity_home.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/drawable_baseline_location_on_24.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/drawable/baseline_location_on_24.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-large-night_activity_add_events.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-large-night\\activity_add_events.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-xlarge-night_data_show.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-xlarge-night/data_show.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout_activity_login.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-large_activity_add_events.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-large\\activity_add_events.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-normal-night_data_show.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-normal-night/data_show.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-large-land-night_activity_home.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-large-land-night\\activity_home.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/mipmap-mdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-normal_activity_register.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-normal\\activity_register.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-large-night_data_show.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-large-night/data_show.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-large_activity_update_event.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-large\\activity_update_event.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/menu-night_data_menu.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/menu-night/data_menu.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-normal-night_activity_add_events.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-normal-night\\activity_add_events.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-xlarge-night_activity_add_events.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-xlarge-night/activity_add_events.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-xlarge-land_activity_add_events.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-xlarge-land\\activity_add_events.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-normal-land_activity_update_event.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-normal-land/activity_update_event.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-xlarge-land-night_activity_home.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-xlarge-land-night\\activity_home.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-large-night_activity_add_events.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-large-night/activity_add_events.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-xlarge-night_activity_home.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-xlarge-night\\activity_home.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-xlarge-land_activity_add_events.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-xlarge-land/activity_add_events.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout_activity_register.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout\\activity_register.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/drawable_baseline_login_24.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/drawable/baseline_login_24.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/drawable_empty.png.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/drawable/empty.png"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-normal-night_activity_register.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-normal-night\\activity_register.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/drawable_google_logo.png.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/drawable/google_logo.png"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-normal_activity_home.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-normal\\activity_home.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-normal-land_activity_add_events.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-normal-land/activity_add_events.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-xlarge_activity_login.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-xlarge\\activity_login.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-xlarge-land-night_activity_home.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-xlarge-land-night/activity_home.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-large-land_activity_update_event.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-large-land\\activity_update_event.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-xlarge_activity_add_events.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-xlarge\\activity_add_events.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/mipmap-xhdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-large-land_activity_home.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-large-land\\activity_home.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-large-land_activity_home.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-large-land/activity_home.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-normal-land-night_activity_update_event.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-normal-land-night/activity_update_event.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-large-land-night_activity_update_event.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-large-land-night\\activity_update_event.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/drawable_baseline_calendar_month_24.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/drawable/baseline_calendar_month_24.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-xlarge_activity_register.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-xlarge\\activity_register.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/drawable_baseline_calender_month_24white.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/drawable/baseline_calender_month_24white.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\drawable_delete.png.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\drawable\\delete.png"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-normal-land-night_activity_add_events.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-normal-land-night/activity_add_events.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-normal-land_activity_home.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-normal-land\\activity_home.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout_activity_update_event.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout/activity_update_event.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\menu_data_menu.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\menu\\data_menu.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-xlarge_activity_add_events.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-xlarge/activity_add_events.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\xml\\backup_rules.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-xlarge_activity_update_event.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-xlarge/activity_update_event.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-large-land-night_activity_add_events.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-large-land-night\\activity_add_events.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-normal_activity_login.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-normal/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-large-land_activity_add_events.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-large-land\\activity_add_events.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-xlarge_activity_register.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-xlarge/activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\drawable_baseline_add_24.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\drawable\\baseline_add_24.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-xlarge-night_activity_register.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-xlarge-night/activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/drawable_baseline_location_on_24white.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/drawable/baseline_location_on_24white.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-xlarge-land_activity_home.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-xlarge-land\\activity_home.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-large_data_show.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-large/data_show.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-large-land_activity_add_events.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-large-land/activity_add_events.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\xml\\data_extraction_rules.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-large-night_activity_update_event.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-large-night/activity_update_event.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-large-night_activity_home.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-large-night\\activity_home.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-normal-night_activity_update_event.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-normal-night/activity_update_event.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\drawable_baseline_loginwhite_24.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\drawable\\baseline_loginwhite_24.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-xlarge_activity_login.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-xlarge/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout_data_show.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout\\data_show.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-large_activity_update_event.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-large/activity_update_event.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-normal-night_activity_home.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-normal-night\\activity_home.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-large-land-night_activity_update_event.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-large-land-night/activity_update_event.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-xlarge_activity_update_event.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-xlarge\\activity_update_event.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-normal-night_activity_add_events.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-normal-night/activity_add_events.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-normal-land_activity_add_events.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-normal-land\\activity_add_events.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-xlarge-land_activity_home.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-xlarge-land/activity_home.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-normal_activity_login.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-normal\\activity_login.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-xlarge-night_activity_login.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-xlarge-night/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout_activity_home.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout\\activity_home.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-normal_activity_add_events.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-normal/activity_add_events.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-normal-land-night_activity_add_events.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-normal-land-night\\activity_add_events.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/drawable_delete_white.png.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/drawable/delete_white.png"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\mipmap-mdpi\\ic_launcher_foreground.webp"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-large_activity_register.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-large/activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-normal-land_activity_update_event.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-normal-land\\activity_update_event.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-large-night_activity_register.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-large-night/activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-large-night_activity_home.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-large-night/activity_home.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-large_activity_home.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-large/activity_home.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\drawable_delete_white.png.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\drawable\\delete_white.png"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-normal_data_show.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-normal/data_show.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-normal_activity_update_event.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-normal/activity_update_event.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout_activity_add_events.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout\\activity_add_events.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-large-land-night_activity_home.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-large-land-night/activity_home.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-xlarge-night_activity_add_events.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-xlarge-night\\activity_add_events.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/drawable_baseline_loginwhite_24.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/drawable/baseline_loginwhite_24.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\drawable_empty.png.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\drawable\\empty.png"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-normal-land_activity_home.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-normal-land/activity_home.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-xlarge-night_activity_register.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-xlarge-night\\activity_register.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-xlarge-land_activity_update_event.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-xlarge-land/activity_update_event.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\menu-night_data_menu.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\menu-night\\data_menu.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.rhythm.musicanmanagement.app-debug-44:/layout-normal_activity_add_events.xml.flat",
-        "source": "com.rhythm.musicanmanagement.app-main-46:/layout-normal/activity_add_events.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/xml_data_extraction_rules.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-xlarge-land-night_activity_update_event.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-xlarge-land-night\\activity_update_event.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout_activity_update_event.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout\\activity_update_event.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout_data_show.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout/data_show.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-large-night_data_show.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-large-night\\data_show.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-large_activity_add_events.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-large/activity_add_events.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-normal-night_activity_login.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-normal-night\\activity_login.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/menu_data_menu.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/menu/data_menu.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-normal-night_data_show.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-normal-night\\data_show.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-large-land_activity_update_event.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-large-land/activity_update_event.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-xlarge-land_activity_update_event.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-xlarge-land\\activity_update_event.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/mipmap-xxhdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-large-night_activity_login.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-large-night\\activity_login.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/drawable_baseline_add_24.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/drawable/baseline_add_24.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\anim_translate_anim.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\anim\\translate_anim.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-normal-night_activity_home.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-normal-night/activity_home.xml"
     },
     {
-        "merged": "com.rhythm.musicanmanagement.app-debug-44:/layout-normal_activity_update_event.xml.flat",
-        "source": "com.rhythm.musicanmanagement.app-main-46:/layout-normal/activity_update_event.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-large_activity_login.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-large/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-normal_data_show.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-normal\\data_show.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\drawable_baseline_location_on_24.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\drawable\\baseline_location_on_24.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/mipmap-hdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-normal-land-night_activity_update_event.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-normal-land-night\\activity_update_event.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-normal_activity_update_event.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-normal\\activity_update_event.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-large-night_activity_login.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-large-night/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-xlarge-night_activity_login.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-xlarge-night\\activity_login.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-normal-night_activity_login.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-normal-night/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout\\activity_login.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/drawable_empty_white.png.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/drawable/empty_white.png"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-xlarge-night_activity_update_event.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-xlarge-night\\activity_update_event.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\mipmap-hdpi\\ic_launcher_foreground.webp"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout_activity_register.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout/activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-xlarge-land-night_activity_add_events.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-xlarge-land-night\\activity_add_events.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/drawable_app_logo.png.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/drawable/app_logo.png"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-normal-night_activity_update_event.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-normal-night\\activity_update_event.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-normal_activity_home.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-normal/activity_home.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-xlarge_data_show.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-xlarge\\data_show.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-large-land-night_activity_add_events.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-large-land-night/activity_add_events.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\drawable_baseline_calendar_month_24.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\drawable\\baseline_calendar_month_24.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-large_data_show.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-large\\data_show.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-xlarge-night_activity_home.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-xlarge-night/activity_home.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\drawable_baseline_location_on_24white.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\drawable\\baseline_location_on_24white.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\drawable_google_logo.png.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\drawable\\google_logo.png"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-normal-land-night_activity_home.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-normal-land-night/activity_home.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-large-night_activity_update_event.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-large-night\\activity_update_event.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-xlarge_activity_home.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-xlarge/activity_home.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-xlarge_data_show.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-xlarge/data_show.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\drawable_app_logo.png.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\drawable\\app_logo.png"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-xlarge-land-night_activity_add_events.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-xlarge-land-night/activity_add_events.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\drawable_empty_white.png.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\drawable\\empty_white.png"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/anim_translate_anim.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/anim/translate_anim.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\drawable_baseline_login_24.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\drawable\\baseline_login_24.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\drawable_baseline_calender_month_24white.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\drawable\\baseline_calender_month_24white.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout_activity_add_events.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout/activity_add_events.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-xlarge-night_data_show.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-xlarge-night\\data_show.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-normal-night_activity_register.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-normal-night/activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-normal-land-night_activity_home.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-normal-land-night\\activity_home.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/xml_backup_rules.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-xlarge-land-night_activity_update_event.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-xlarge-land-night/activity_update_event.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-large_activity_login.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-large\\activity_login.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-normal_activity_register.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-normal/activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-xlarge_activity_home.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-xlarge\\activity_home.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/drawable_delete.png.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/drawable/delete.png"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-large_activity_home.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-large\\activity_home.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/layout-xlarge-night_activity_update_event.xml.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/layout-xlarge-night/activity_update_event.xml"
     },
     {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-normal_activity_add_events.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-normal\\activity_add_events.xml"
-    },
-    {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
-        "merged": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-debug-44:\\layout-large-night_activity_register.xml.flat",
-        "source": "C:\\Users\\rajgu\\.gradle\\daemon\\8.4\\com.rhythm.musicanmanagement.app-main-46:\\layout-large-night\\activity_register.xml"
+        "merged": "com.rhythm.musicanmanagement.app-debug-45:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.rhythm.musicanmanagement.app-main-47:/mipmap-xhdpi/ic_launcher.webp"
     }
 ]
