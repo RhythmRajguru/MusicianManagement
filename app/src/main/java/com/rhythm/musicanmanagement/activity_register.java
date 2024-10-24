@@ -49,6 +49,7 @@ public class activity_register extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(), activity_login.class));
+                finish();
             }
         });
 

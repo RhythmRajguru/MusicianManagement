@@ -59,6 +59,7 @@ public class home extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent=new Intent(getApplicationContext(), addEvents.class);
                 startActivity(intent);
+
             }
         });
     myDB=new myDatabseHelper(getApplicationContext());

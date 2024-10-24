@@ -16,6 +16,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
@@ -43,6 +44,7 @@ public class activity_login extends AppCompatActivity {
     EditText etEmail,etPassword;
     Button btn_signIn;
     FirebaseAuth fAuth;
+    Toolbar toolbar;
     private GoogleSignInClient mGoogleSignInClient; // GoogleSignInClient instance
     private static final int RC_SIGN_IN = 101; // Request code for Google sign-in
 
@@ -74,7 +76,10 @@ public class activity_login extends AppCompatActivity {
         etEmail=findViewById(R.id.etEmail);
         etPassword=findViewById(R.id.etPassword);
         btn_signIn=findViewById(R.id.btn_signIn);
-
+//toolbar added
+        toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        toolbar.setTitle("Sign in");
 
         fAuth=FirebaseAuth.getInstance();
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
@@ -92,6 +97,7 @@ public class activity_login extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(), activity_register.class));
+                finish();
             }
         });
 
