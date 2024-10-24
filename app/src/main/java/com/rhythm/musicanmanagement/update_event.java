@@ -24,6 +24,7 @@ import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.LoadAdError;
+import com.google.android.gms.ads.MobileAds;
 
 public class update_event extends AppCompatActivity {
     EditText etTitleName,etPeopleCount,etDate,etTime,etLocation,etDescription;
@@ -51,6 +52,10 @@ public class update_event extends AppCompatActivity {
         toolbar.setTitle("Update Event");
 
         getandSetIntentData();
+        //banner ad implmentation
+        MobileAds.initialize(this, initializationStatus -> {
+            // SDK initialized, you can load ads here
+        });
         adView = findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         adView.loadAd(adRequest);

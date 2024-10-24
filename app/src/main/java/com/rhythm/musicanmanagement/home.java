@@ -5,6 +5,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -27,7 +28,12 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.FullScreenContentCallback;
+import com.google.android.gms.ads.LoadAdError;
 import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.interstitial.InterstitialAd;
+import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.auth.FirebaseAuth;
 
@@ -42,7 +48,7 @@ public class home extends AppCompatActivity {
     ImageView empty_imgView;
     TextView empty_textView;
     ArrayList<String> original_event_id, original_event_title, original_event_people, original_event_date, original_event_time, original_event_location, original_event_description;
-
+    private InterstitialAd mInterstitialAd;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,9 +61,17 @@ public class home extends AppCompatActivity {
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         toolbar.setTitle("Recent Events");
+
+        // Load Interstitial Ad
+        loadInterstitialAd();
+
+
+
+
         add_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                showInterstitialAd();
                 Intent intent=new Intent(getApplicationContext(), addEvents.class);
                 startActivity(intent);
 
@@ -78,6 +92,52 @@ public class home extends AppCompatActivity {
 
 
     }
+
+    private void loadInterstitialAd() {
+        AdRequest adRequest = new AdRequest.Builder().build();
+        InterstitialAd.load(this, "ca-app-pub-3459566848009785/4744493627", adRequest, new InterstitialAdLoadCallback() {
+            @Override
+            public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
+                mInterstitialAd = interstitialAd;
+
+                mInterstitialAd.setFullScreenContentCallback(new FullScreenContentCallback() {
+                    @Override
+                    public void onAdDismissedFullScreenContent() {
+                        // Load the next ad after the previous one is closed
+                        mInterstitialAd = null;
+                        loadInterstitialAd();
+                    }
+
+                    @Override
+                    public void onAdFailedToShowFullScreenContent(com.google.android.gms.ads.AdError adError) {
+
+                    }
+
+                    @Override
+                    public void onAdShowedFullScreenContent() {
+
+                    }
+                });
+            }
+
+            @Override
+            public void onAdFailedToLoad(@NonNull com.google.android.gms.ads.LoadAdError adError) {
+
+            }
+        });
+    }
+
+    // Show the interstitial ad when needed
+    private void showInterstitialAd() {
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show(home.this);
+        } else {
+
+        }
+    }
+
+
+
     @Override
     protected void onResume() {
         super.onResume();
@@ -145,22 +205,6 @@ public class home extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-//        switch (item.getItemId()) {
-//            case R.id.delete_all:
-//                confirmDialog();
-//                break;
-//            case R.id.sort_newest:
-//                sortByNewest();
-//                break;
-//            case R.id.sort_oldest:
-//                sortByOldest();
-//                break;
-//            case R.id.sort_date_asc:
-//                sortByDateAscending();
-//                break;
-//            case R.id.sort_date_desc:
-//                sortByDateDescending();
-//                break;
         if (item.getItemId()==R.id.delete_all){
             confirmDialog();
             return true;
